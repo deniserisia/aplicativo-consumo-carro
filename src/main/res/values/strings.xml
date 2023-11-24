@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">appCarroConsumo</string>
+    <string name="textCabecalho"> Calcule o seu consumo de viagens </string>
+    <string name="textDistancia"> Distância: </string>
+    <string name="totalkm"> Total em Quilômetros </string>
+    <string name="totalPreco"> Preço da Gasolina/Alcool: </string>
+    <string name="precoLitro"> Preço por Litro </string>
+    <string name="textAutonomia"> Autonomia do Carro </string>
+    <string name="kmporlitros"> Quilômetros por Litro</string>
+    <string name="textResultado"> Seu gasto total será: </string>
+    <string name="textResultado2"> R$: 0 </string>
+    <string name="buttonResultado"> Calcular </string>
 </resources>

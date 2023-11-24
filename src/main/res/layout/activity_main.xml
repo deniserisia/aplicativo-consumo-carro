@@ -4,7 +4,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/backapp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/textCabecalho"
+        android:text="@string/textCabecalho"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/name_cabecalho"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/textDistancia"
+        android:layout_marginTop="53dp"
+        android:hint="@string/textDistancia"
+        android:textColor="@color/atributos"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/totalkm"
+        android:text="@string/totalkm"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/name_cabecalho"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/totalPreco"
+        android:layout_marginTop="53dp"
+        android:hint="@string/totalPreco"
+        android:textColor="@color/atributos"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/precoLitro"
+        android:text="@string/precoLitro"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/name_cabecalho"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/textAutonomia"
+        android:layout_marginTop="53dp"
+        android:hint="@string/textAutonomia"
+        android:textColor="@color/atributos"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/kmporlitros"
+        android:text="@string/kmporlitros"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/name_cabecalho"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:text="@string/textResultado"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/name_cabecalho"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textResultado2"
+        android:text="@string/textResultado2"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/atributos"
+        android:textSize="32sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonResultado"
+        android:text="@string/buttonResultado"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 
